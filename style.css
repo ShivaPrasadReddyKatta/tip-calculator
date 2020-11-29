@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #585858;
+  background: #e6e6e6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-height: 45vh;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2); */
+  /* background: #e6e6e6; */
+  background: transparent;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 30px;
+  padding: 5rem;
+}
+
+.output {
+  /* position: absolute; */
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 2rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.output p {
+  padding: 2rem 0;
+}
+
+.bill {
+  font-weight: bolder;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  padding: 0.5rem;
+  background-color: #e6e6e6;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+p {
+  padding: 0.5rem 0rem;
+}
+
+.calculate {
+  padding: 1rem 0rem;
+}
+
+.cal {
+  color: #585858;
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.cal:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.cal:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.pertip,
+.perbill {
+  display: none;
+  font-size: 1rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0,shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <p>Bill</p>
+        <label>
+          <input id="bill" type="text" value="0" />
+        </label>
+        <p>Tip %</p>
+        <label>
+          <input id="tip" type="number" value="15" />
+        </label>
+        <p>Number of people</p>
+        <label>
+          <input id="people" type="number" value="1" />
+        </label>
+        <div class="calculate">
+          <button class="cal">Calculate</button>
+        </div>
+      </div>
+      <div class="output">
+        <p>
+          Tip $<span class="tip">0.00</span
+          ><span class="pertip"> per person</span>
+        </p>
+        <p>
+          Bill $<span class="bill">0.00</span
+          ><span class="perbill"> per person</span>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
